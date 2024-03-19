@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li {
+  @apply px-2 hover:bg-green-500;
+}
+
+.bg-primary {
+  background-color:#fffefe;
+  color: rgb(11, 7, 14);
+}
+.bg-prime {
+  background-color: rgb(182, 26, 122);
+  color: white;
+}
+
+.bg-secondary {
+  background-color: rgb(182, 26, 122);
+  color: aliceblue;
+}
+.bg-sec {
+  color: rgb(6, 224, 6)
+}
+
+.mobile-nav {
+  @apply fixed top-10 left-0 bg-slate-800 w-full h-1/4; 
+}
+.mobile-nav ul li {
+  @apply w-full h-full text-center border-b;
+}
+
+.project-desc {
+  @apply absolute left-0 right-0 bottom-0 top-0 bg-secondary opacity-0 duration-500 hover:opacity-100;
+}
+.btn {
+  @apply bg-green-600 px-5 py-2  font-bold hover:border-2 border-white rounded;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.bg-footer{
+  background-color: #880446;
+  color: white;
+}
